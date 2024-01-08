@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="Service Website one Landing Page example"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <title>Landing Page</title>        
+    </head>
+    <body>
+        <header>
+            <nav class="navigation">
+                    
+                    <ul class="nav-menu">
+                        <li class="nav-item"><a href="#Top">Top</a></li>
+                        <li class="nav-item"><a href="#Collection">Collection</a></li>
+                    </ul>
+                    <a href="#" class="logo">Fashion<span>Week</span></a>
+                    <ul class="nav-menu">
+                        <li class="nav-item"><a href="#Location">Location</a></li>
+                        <li class="nav-item"><a href="#contacts">Contacts</a></li>
+                    </ul>
+                    <a id="menu-btn" class="btn-menu" href="#"><i id="bar" class="fa-solid fa-bars"></i></a>
+                    <div id="menu" class="menu">
+                        <div class="btns-holder">
+                            <span id="span-close" class="bar"><a id="close-btn" class="close-btn" href="#">Close</a></span>
+                            <span class="bar"><a href="#Top">Top</a></span>
+                            <span class="bar"><a href="#Collection">Collection</a></span>
+                            <span class="bar"><a href="#Location">Location</a></span>
+                            <span class="bar"><a href="#contacts">Contacts</a></span>
+                        </div>
+                    </div>
+            </nav>
+            
+        </header>
+        <div class="wrapper">
+            <div class="content-slide" id="Top">
+                <div class="slide-show">
+                    <ul class="slides-list">
+                        <li id="slider-img-1" class="slide">         
+                            <img src="imgs/slide1.jpg"/>   
+                        </li>
+                        <li id="slider-img-2" class="slide">
+                            <img src="imgs/slide2.jpg"/>                 
+                        </li>
+                        <li id="slider-img-3" class="slide">
+                            <img src="imgs/slide3.jpg"/>                  
+                        </li>
+                    </ul>
+                </div>
+                <div class="buttons-holder">
+                    <span class="prev">&#8592;</span>
+                    <ul class="buttons">
+                        <li id="slide-btn-1" class="btn-slide"></li>
+                        <li id="slide-btn-2" class="btn-slide"></li>
+                        <li id="slide-btn-3" class="btn-slide"></li>
+                    </ul>
+                    <span class="next">&#8594;</span>
+                </div>                
+            </div>
+            <hr>
+            <div class="content-show" id="Collection">
+                <div class="text-show">
+                    <h1>Coleção de Verão</h1>
+                    <p>
+                        Aproveite Agora para Adquirir a nova Coleção de Verão 
+                    </p>
+                </div>
+                <div class="img-show">
+                </div>
+            </div>
+            <hr>
+            <div class="content-styles">
+                <div class="cards-holder">
+                    <div class="card">                        
+                        <div class="card-img"><img src="imgs/style1.jpg"/></div>
+                        <div class="card-text"><span>Formal</span></div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img"><img src="imgs/style2.jpg"/></div>
+                        <div class="card-text"><span>Casual</span></div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img"><img src="imgs/style3.jpg"/></div>
+                        <div class="card-text"><span>Bussiness</span></div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img"><img src="imgs/style4.jpg"/></div>
+                        <div class="card-text"><span>Esportivo</span></div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img"><img src="imgs/style5.jpg"/></div>
+                        <div class="card-text"><span>Sapatos e Saltos</span></div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img"><img src="imgs/style6.jpg"/></div>
+                        <div class="card-text"><span>Acessórios</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="creator"><span>Created by <span style="color: aqua;">Guilherme Filheiro</span></span></div>
+            <div class="contacts" id="contacts">
+                <div class="contact-item">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span>(+99) 91 9999-9999</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-regular fa-envelope"></i>
+                    <span>atendimento@lojaroupa.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-regular fa-envelope"></i>
+                    <span>suporte@lojaroupa.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-brands fa-instagram"></i>
+                    <span>@lojasroupa</span>
+                </div>
+                <div class="contact-item" id="Location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Rua A, Bairro B, São Paulo, Brasil</span>
+                </div>
+            </div>
+            
+        </footer>
+        <script src="js/script.js"></script>
+    </body>
+</html>
